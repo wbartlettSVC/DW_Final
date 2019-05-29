@@ -1,40 +1,43 @@
 @charset "UTF-8";
 /* CSS Document */
 body {
-	margin: 0 auto;
-	font-family: Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+    height: 100vh;
 }
 
 .wrapper {
-	overflow: auto;
-	width: 100%;
+    overflow: auto;
+    width: 100%;
+    background-image: gradient,;
 }
 header {
-	text-align: center;
-	height: 200px;
-	background-color: #999;
-	color: #fff;
-	border-bottom: 3px solid #34A400;
-	border-top: 3px solid #34A400;
-	margin-bottom: 10px;
-	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55);
-	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55);
-	background-repeat: no-repeat , repeat-x;
-	background-position: 45% center, 0 0;
-	background-size: auto 75%, auto auto, auto;
+    text-align: center;
+    height: 200px;
+    background-color: #999;
+    color: #fff;
+    border-bottom: 3px solid #34A400;
+    border-top: 3px solid #34A400;
+    margin-bottom: 10px;
+    /* [disabled]-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55); */
+    /* [disabled]box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55); */
+    background-repeat: no-repeat , repeat-x;
+    background-position: center center,0 0;
+    background-size: cover,auto auto,auto;
+    background-image: url(../images/coffee-230022_1920.jpg);
 }
 header h2 {
-	margin-top: 1em;
-	margin-right: 0;
-	margin-left: 0;
-	margin-bottom: 0;
-	text-shadow: 0px 0px 12.48px rgba(0, 0, 0, 0.5);
-	color: #FF4696;
-	line-height: 0.8em;
-	font-family: leckerli-one;
-	font-size: 66px;
-	font-weight: 400;
-	font-style: normal;
+    margin-top: 1em;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-shadow: 0px 0px 12.48px rgba(0, 0, 0, 0.5);
+    color: #8BC74E;
+    line-height: 0.8em;
+    font-family: leckerli-one;
+    font-size: 66px;
+    font-weight: 400;
+    font-style: normal;
 }
 header h2 a:link, header h2 a:visited {
     color: inherit;
@@ -42,15 +45,15 @@ header h2 a:link, header h2 a:visited {
 }
 
 header p {
-	margin: 0;
-	line-height: 6em;
-	font-family: boogaloo;
-	color: #E1E1E1;
-	font-size: 18px;
-	font-weight: 400;
-	text-shadow: 0px 3px 4px rgba(0, 0, 1, 0.38);
-	letter-spacing: .5em;
-	font-style: normal;
+    margin: 0;
+    line-height: 5em;
+    font-family: boogaloo;
+    color: #80EC0F;
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 3px 3px 4px rgba(0, 0, 1, 0.38);
+    letter-spacing: 2.5px;
+    font-style: normal;
 }
 nav {
 	background-color: #CCC;
@@ -108,15 +111,14 @@ nav ul li a:hover{
 	font-style: normal;
 }
 main {
-	overflow: auto;
+    overflow: auto;
 }
 main aside {
-	padding: 10px;
-	width: 20%;
-	border-bottom: 3px solid #069;
-	border-top: 5px solid #069;
-	min-height: 150px;
-	font-size: 90%;
+    padding: 10px;
+    width: 20%;
+    border: 2px ridge #34A400;
+    min-height: 150px;
+    font-size: 90%;
 }
 main aside h2 {
 	font-size: 120%;
@@ -133,12 +135,14 @@ main > section {
 	box-sizing: border-box;
 }
 main section h1 {
-	margin: 0 0 5px 0;
-	font-size: 42px;
-	font-family: BreeSerif;
-	color: #000000;
-	font-weight: 700;
-	line-height: 22px;
+    margin: 0 0 5px 0;
+    font-size: 42px;
+    font-family: boogaloo;
+    color: #000000;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    font-style: normal;
 }
 main section article h2 {
 	font-size: 28px;
@@ -148,32 +152,42 @@ main section article h2 {
 	line-height: 22px;
 }
 main section article p {
-	font-family: 'Source Sans Pro';
-	color: #000000;
-	font-size: 15px;
-	font-weight: 400;
-	line-height: 22px;
+    font-family: cuprum;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    text-indent: 14px;
+    text-align: center;
+    font-style: normal;
 }
 .sidebar1 {
-	float: left;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #EFFFEF;
 }
 .sidebar1 blockquote {
 	padding: 0;
 	margin: 0 0 20px 0;
 }
 .sidebar1 blockquote p {
-	padding: 0 .5em;
-	margin: 0 0 5px 0;
-	text-indent: -0.4em;
+    padding: 0 .5em;
+    margin: 0 0 5px 0;
+    text-indent: 10px;
+    font-style: normal;
+    font-family: cuprum;
+    color: #4C4C4C;
+    font-weight: 400;
 }
 .sidebar1 blockquote cite {
-	display: block;
-	font-size: 90%;
-	text-align: right;
-	font-style: italic;
+    display: block;
+    font-size: 93%;
+    text-align: right;
+    font-style: normal;
+    font-family: boogaloo;
+    font-weight: 400;
 }
 .sidebar1 p {
 	margin: 0 0 .5em 0;
@@ -184,11 +198,11 @@ main section article p {
 	line-height: 22px;
 }
 .sidebar2 {
-	float: right;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	background-color: #ccffcc;
+    float: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #EFFFEF;
 }
 .sidebar2 figure {
 	margin: 0 0 10px 0;
@@ -210,18 +224,19 @@ main section article p {
 	line-height: 22px;
 }
 footer {
-	padding-top: 1em;
-	padding-right: 1em;
-	padding-left: 1em;
-	padding-bottom: 1em;
-	clear: both;
-	margin: 10px 0;
-	background-color: #CCC;
-	font-size: 90%;
-	border-top: solid 3px #666;
-	background-image: -webkit-linear-gradient(90deg,rgba(3,75,9,1.00) 0%,rgba(3,185,36,1.00) 100%);
-	background-image: -moz-linear-gradient(90deg,rgba(3,75,9,1.00) 0%,rgba(3,185,36,1.00) 100%);
-	background-image: linear-gradient(0deg, #034b09 0%, #03b924 100%);
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    clear: both;
+    margin: 10px 0;
+    background-color: #CCC;
+    font-size: 90%;
+    border-top: solid 3px #666;
+    background-image: -webkit-linear-gradient(90deg,rgba(26,147,74,1.00) 0%,rgba(2,116,114,1.00) 100%);
+    background-image: -moz-linear-gradient(90deg,rgba(26,147,74,1.00) 0%,rgba(2,116,114,1.00) 100%);
+    background-image: -o-linear-gradient(90deg,rgba(26,147,74,1.00) 0%,rgba(2,116,114,1.00) 100%);
+    background-image: linear-gradient(0deg,rgba(26,147,74,1.00) 0%,rgba(2,116,114,1.00) 100%);
 }
 footer p {
 	margin: 0 0 5px 0;
