@@ -123,15 +123,18 @@ main aside h2 {
 	font-size: 120%;
 }
 main > section {
-	width: 58%;
-	float: left;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	padding-top: 10px;
-	padding-right: 0;
-	padding-bottom: 0;
-	margin: 0 1%;
-	box-sizing: border-box;
+    width: 58%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    box-sizing: border-box;
 }
 main section h1 {
     margin: 0 0 5px 0;
@@ -341,4 +344,49 @@ table caption {
 .story_img {
 	width: 33%;
 	float: right;
+}
+.sidebar4 {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #EFFFEF;
+    width: 35%;
+}
+.contact {
+    width: 98%;
+    text-align: center;
+}
+.contact_phone {
+    float: left;
+    width: 35%;
+    padding-top: 125px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    font-size: 22px;
+}
+
+.contact article form {
+    width: 65%;
+    float: right;
+    border-radius: 250px 20px 5px 11px;
+    background-color: #118859;
+}
+
+article form input {
+    margin-top: 0px;
+    margin-right: -231px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: 65%;
+
+}
+article form p {
+    line-height: none;
+}
+
+
+.contact_us {
+    font-size: 22px;
 }
