@@ -123,18 +123,19 @@ main aside h2 {
 	font-size: 120%;
 }
 main > section {
-    width: 58%;
-    float: left;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    padding-top: 10px;
-    padding-right: 0;
-    padding-bottom: 0;
-    margin-top: auto;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: auto;
-    box-sizing: border-box;
+	width: 58%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	box-sizing: border-box;
+	padding-left: 15px;
 }
 main section h1 {
     margin: 0 0 5px 0;
@@ -154,22 +155,22 @@ main section article h2 {
 	line-height: 22px;
 }
 main section article p {
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #000000;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 22px;
-    text-indent: 14px;
-    text-align: center;
-    padding-top: 0;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 0px;
-    margin-top: 10px;
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 15px;
-    font-style: normal;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 22px;
+	text-indent: 14px;
+	text-align: left;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-left: 15px;
+	padding-bottom: 0px;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 15px;
+	font-style: normal;
 }
 .sidebar1 {
     float: left;
